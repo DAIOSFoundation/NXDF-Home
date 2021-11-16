@@ -2,16 +2,16 @@ version: "3.8"
 
 services:
   # Frontend
-  staking4u:
+  nxdf:
     build:
       context: .
       dockerfile: Dockerfile
-    image: staking4u
-    container_name: staking4u
+    image: nxdf
+    container_name: nxdf
     environment:
       - TZ
-      - VIRTUAL_HOST=staking4u.com
-      - LETSENCRYPT_HOST=staking4u.com
+      - VIRTUAL_HOST=nxdf.io
+      - LETSENCRYPT_HOST=nxdf.io
       - LETSENCRYPT_EMAIL=full@daiblab.com
     network_mode: "webproxy"
     restart: ${RESTART_POLICY}
