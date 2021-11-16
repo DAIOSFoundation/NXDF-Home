@@ -6,6 +6,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    ports:
+      - 8888:80
     image: nxdf
     container_name: nxdf
     environment:
