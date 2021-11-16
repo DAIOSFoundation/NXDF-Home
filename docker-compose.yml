@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  # Frontend
+  staking4u:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: staking4u
+    container_name: staking4u
+    environment:
+      - TZ
+      - VIRTUAL_HOST=staking4u.com
+      - LETSENCRYPT_HOST=staking4u.com
+      - LETSENCRYPT_EMAIL=full@daiblab.com
+    network_mode: "webproxy"
+    restart: ${RESTART_POLICY}
