@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('staking4u-site:server');
+var debug = require('debug')('nxdf:server');
 var http = require('http');
 
 /**
