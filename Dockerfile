@@ -1,14 +1,14 @@
 FROM node:14.11.0
-MAINTAINER full<full@daiblab.com>
+MAINTAINER first<first@daiblab.com>
 
 # 도커안의 앱 디렉터리 생성
-WORKDIR /project/staking4u
+WORKDIR /project/nxdf
 
 # 앱 의존성 설치
 # 가능한 경우(npm@5+) package.json과 package-lock.json을 모두 복사하기 위해
 # 와일드카드를 사용
 #COPY package*.json ./
-COPY . /project/staking4u
+COPY . /project/nxdf
 
 # Install Packages
 RUN apt-get update -y && apt-get install git nano vim tzdata -y

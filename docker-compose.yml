@@ -6,14 +6,12 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - 8888:80
     image: nxdf
     container_name: nxdf
     environment:
       - TZ
       - VIRTUAL_HOST=nxdf.io
       - LETSENCRYPT_HOST=nxdf.io
-      - LETSENCRYPT_EMAIL=full@daiblab.com
+      - LETSENCRYPT_EMAIL=first@daiblab.com
     network_mode: "webproxy"
     restart: ${RESTART_POLICY}
