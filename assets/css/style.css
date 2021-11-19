@@ -401,7 +401,7 @@ Navbar CSS
 }
 
 .crake-nav {
-  background: #5729fb;
+  background: #020223;
   position: absolute;
   top: 0;
   left: 0;
@@ -797,7 +797,7 @@ Navbar CSS
   z-index: 999;
   -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
-  background-color: #5729fb !important;
+  background-color: #020223 !important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
