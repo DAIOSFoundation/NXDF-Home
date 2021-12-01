@@ -13,5 +13,5 @@ services:
       - VIRTUAL_HOST=nxdf.io
       - LETSENCRYPT_HOST=nxdf.io
       - LETSENCRYPT_EMAIL=first@daiblab.com
-    network_mode: "webproxy"
-    restart: ${RESTART_POLICY}
+    network_mode: "proxy"
+    restart: "always"
