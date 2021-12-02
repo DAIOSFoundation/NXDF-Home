@@ -15,5 +15,3 @@ services:
       - LETSENCRYPT_EMAIL=first@daiblab.com
     network_mode: "proxy"
     restart: "always"
-    ports:
-      - "80:8080"
