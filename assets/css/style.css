@@ -2503,195 +2503,50 @@ Overview CSS
   background: #ffffff;
 }
 
-.overview-box {
-  margin-bottom: 60px;
+
+.main-logo_wrapper{
+  justify-content: center;
+  display: flex;
 }
 
-.overview-box .overview-img {
-  text-align: center;
+.main-x{
+  margin-top: 8%;
 }
 
-.overview-box .overview-content .icon {
-  background: #ffe9da;
-  color: #FF8A73;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  border-radius: 50%;
-  font-size: 25px;
+.banner_wrapper{
+  justify-content: center;
 }
 
-.overview-box .overview-content span {
-  display: block;
-  margin-bottom: -10px;
-  color: #FF8A73;
+.top_btn{
+  padding: 0 6%;
+  display: flex;
+  justify-content: center; 
+  width: 50%;
 }
 
-.overview-box .overview-content h3 {
-  position: relative;
-  margin: 20px 0 15px;
-  z-index: 1;
-  font-size: 23px;
-  font-weight: 700;
+.bottom_btn{
+  display: flex; 
+  justify-content: center; 
+  width: 50%;
+}
+ .apple-download-120 {
+  width: 268px;
+  height: 80px;
+  object-fit: contain;
 }
 
-.overview-box .overview-content p {
-  margin-bottom: 0;
+
+.google-play-120 {
+  width: 268px;
+  height: 80px;
+  object-fit: contain;
 }
 
-.overview-box .overview-content ul {
-  padding: 0;
-  margin: 15px 0 25px;
-  list-style-type: none;
+
+.google-href{
+  justify-content: center;
 }
 
-.overview-box .overview-content ul li {
-  color: #818992;
-  padding-left: 18px;
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.overview-box .overview-content ul li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 8px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #13c4a1;
-}
-
-.overview-box .overview-content ul li:last-child {
-  margin-bottom: 0;
-}
-
-.overview-box .overview-content ul.features-list {
-  overflow: hidden;
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-
-.overview-box .overview-content ul.features-list li {
-  float: left;
-  width: 45%;
-  background: #ffffff;
-  -webkit-box-shadow: 0 0 1.05rem rgba(108, 118, 134, 0.1);
-          box-shadow: 0 0 1.05rem rgba(108, 118, 134, 0.1);
-  padding: 10px 20px 10px 25px;
-  border-radius: 5px;
-  margin-bottom: 0;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-
-.overview-box .overview-content ul.features-list li::before {
-  left: 10px;
-  top: 18px;
-}
-
-.overview-box.modern-flexible .single-item {
-  position: relative;
-  padding-left: 55px;
-  margin-bottom: 30px;
-}
-
-.overview-box.modern-flexible .single-item .icon {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 30px;
-  color: #13c4a1;
-}
-
-.overview-box.modern-flexible .single-item h3 {
-  font-size: 23px;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.overview-box.modern-flexible .single-item:last-child {
-  margin-bottom: 0;
-}
-
-.overview-box.modern-flexible .single-item.right-icon {
-  padding-left: 0;
-  padding-right: 55px;
-  text-align: right;
-}
-
-.overview-box.modern-flexible .single-item.right-icon .icon {
-  left: auto;
-  right: 0;
-}
-
-.overview-box:last-child {
-  margin-bottom: 0;
-}
-
-.overview-box .app-fetured-item {
-  position: relative;
-  height: 100%;
-}
-
-.overview-box .app-fetured-item .app-item {
-  text-align: center;
-  width: 200px;
-  padding: 45px 10px;
-  border-radius: 5px;
-  -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
-  position: absolute;
-}
-
-.overview-box .app-fetured-item .app-item.item-one {
-  background-image: -webkit-linear-gradient(40deg, #e87e16 0, #f0de14 100%);
-  -webkit-box-shadow: 0 20px 40px 0 rgba(224, 149, 32, 0.4);
-          box-shadow: 0 20px 40px 0 rgba(224, 149, 32, 0.4);
-  right: 0;
-  top: -150px;
-  z-index: 1;
-}
-
-.overview-box .app-fetured-item .app-item.item-two {
-  background-image: -webkit-linear-gradient(40deg, #13C4A1 0, #41CBB0 100%);
-  -webkit-box-shadow: 0 20px 40px 0 rgba(19, 196, 161, 0.4);
-          box-shadow: 0 20px 40px 0 rgba(19, 196, 161, 0.4);
-  left: 60px;
-  top: 0;
-}
-
-.overview-box .app-fetured-item .app-item.item-three {
-  background-image: -webkit-linear-gradient(40deg, #008000 0, #268B26 100%);
-  -webkit-box-shadow: 0 20px 40px 0 rgba(0, 128, 0, 0.4);
-          box-shadow: 0 20px 40px 0 rgba(0, 128, 0, 0.4);
-  left: 90px;
-  bottom: -10px;
-}
-
-.overview-box .app-fetured-item .app-item.item-four {
-  background-image: -webkit-linear-gradient(40deg, #FF8A73 0, #F89B88 100%);
-  -webkit-box-shadow: 0 20px 40px 0 rgba(255, 138, 115, 0.4);
-          box-shadow: 0 20px 40px 0 rgba(255, 138, 115, 0.4);
-  right: 35px;
-  top: -15px;
-}
-
-.overview-box .app-fetured-item .app-item i {
-  font-size: 40px;
-  color: #ffffff;
-}
-
-.overview-box .app-fetured-item .app-item h6 {
-  font-size: 16px;
-  font-weight: 700;
-  color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 0;
-}
 
 /*================================================
 CTA CSS

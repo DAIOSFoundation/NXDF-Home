@@ -16,7 +16,20 @@ $black_color: #000000;
 $paragraph_color: #818992;
 
 @media only #{$media} and ($feature_max : $value_one) {
+
+
+    //구글 버튼
+
+    .bottom_btn{
+        display: inline;
+    }
+
+    
+    
+    //구글 버튼 끝 12/2
+
     .btn {
+        display: inline;
         font-size: 14px;
         padding: 14px 27px;
         box-shadow: 0 5px 27px 0 rgba(163, 48, 53, 0.25);

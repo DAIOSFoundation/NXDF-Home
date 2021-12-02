@@ -116,6 +116,27 @@
             }
         });
 
+
+        $('.feedback-slides2').owlCarousel({
+            loop:true,
+            autoplay:true,
+            autoplayHoverPause: true,
+            mouseDrag: true,
+            center: true,
+            dots: true,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                768:{
+                    items:1,
+                },
+                1200:{
+                    items:1,
+                }
+            }
+        });
+
         // Screenshot Slides
         $('.screenshot-slides').owlCarousel({
             loop:true,
