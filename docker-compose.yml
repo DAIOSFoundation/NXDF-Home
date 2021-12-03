@@ -1,17 +1,8 @@
 version: "3.8"
-
 services:
-  # Frontend
   nxdf:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: nxdf
+    image: asia.gcr.io/eminent-glider-213307/nxdf-home
     container_name: nxdf
-    environment:
-      - TZ
-      - VIRTUAL_HOST=nxdf.io
-      - LETSENCRYPT_HOST=nxdf.io
-      - LETSENCRYPT_EMAIL=first@daiblab.com
-    network_mode: "proxy"
+    ports:
+      - "81:80"
     restart: "always"

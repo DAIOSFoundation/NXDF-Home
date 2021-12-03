@@ -1,4 +1,4 @@
-FROM node:14.11.0
+FROM node:16.13.1
 MAINTAINER first<first@daiblab.com>
 
 # 도커안의 앱 디렉터리 생성
