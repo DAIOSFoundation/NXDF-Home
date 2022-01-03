@@ -22,7 +22,8 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "assets")));
 
 app.use("/", indexRouter);
-app.use("/article", articleRouter);
+//1/3일 기사 링크 막아둠, https://medium.com/@NXDF 로 변경(views/index.ejs 53 번쨰 nav))
+// app.use("/article", articleRouter);
 app.use("/users", usersRouter);
 
 // catch 404 and forward to error handler
